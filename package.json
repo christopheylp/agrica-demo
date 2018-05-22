@@ -1,0 +1,28 @@
+{
+  "name": "agrica-demo",
+  "main": "agrica-demo.js",
+  "scripts": {
+    "dev": "polymer serve -p 8080 | npm run watch",
+    "watch": "browser-sync start --proxy localhost:8080 --startPath /components/agrica-demo/demo/ --files *.html,*.js,demo/*.*"
+  },
+  "dependencies": {
+    "@polymer/iron-list": "^3.0.0-pre.19",
+    "@polymer/paper-button": "^3.0.0-pre.19",
+    "@polymer/paper-checkbox": "^3.0.0-pre.19",
+    "@polymer/paper-dropdown-menu": "^3.0.0-pre.19",
+    "@polymer/paper-icon-button": "^3.0.0-pre.19",
+    "@polymer/paper-input": "^3.0.0-pre.19",
+    "@polymer/paper-item": "^3.0.0-pre.19",
+    "@polymer/paper-listbox": "^3.0.0-pre.19",
+    "@polymer/paper-progress": "^3.0.0-pre.19",
+    "@polymer/paper-radio-button": "^3.0.0-pre.19",
+    "@polymer/polymer": "^3.0.0",
+    "emoji-rain": "^1.4.0",
+    "paper-radio-button": "^0.3.0"
+  },
+  "devDependencies": {
+    "@polymer/iron-demo-helpers": "^3.0.0-pre.12",
+    "@webcomponents/webcomponentsjs": "^2.0.0",
+    "wct-browser-legacy": "^1.0.0"
+  }
+}

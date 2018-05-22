@@ -1,0 +1,1557 @@
+{
+  "Service App mobile": {
+    "prod": {
+      "url": {
+        "dmz": [
+          "https://apps.groupagrica.com/"
+        ]
+      }
+    },
+    "rec": {
+      "url": {
+        "dmz": [
+          "https://rec-apps.groupagrica.com/"
+        ]
+      }
+    },
+    "qa": {
+      "url": {
+        "dmz": [
+          "https://qualif-apps.groupagrica.com/"
+        ]
+      }
+    }
+  },
+  "AOL": {
+    "description": "Application de gestion des Administrateur",
+    "maven": {
+      "groupId": "com.agrica.aol",
+      "artifactId": "magi"
+    },
+    "prod": {
+      "servers": {
+        "lan": [
+          "PAOLUNXWEB03"
+        ],
+        "dmz": [
+          "PAOLUNXWEB01",
+          "PAOLUNXWEB02"
+        ],
+        "db": [
+          "PAOLUNXBDD01",
+          "PAOLUNXBDD02"
+        ]
+      },
+      "url": {
+        "dmz": [
+          "https://administrateur.groupagrica.com/"
+        ],
+        "lan": [
+          "http://aol/",
+          "http://instances/"
+        ]
+      }
+    },
+    "rec": {
+      "servers": {
+        "lan": [
+          "RAOLUNXWEB03"
+        ],
+        "dmz": [
+          "RAOLUNXWEB01",
+          "RAOLUNXWEB02"
+        ],
+        "db": [
+          "RAOLUNXBDD01",
+          "RAOLUNXBDD02"
+        ]
+      },
+      "url": {
+        "dmz": [
+          "https://rec-administrateur.groupagrica.com"
+        ],
+        "lan": [
+          "http://rec-administrateur.agrica.loc/"
+        ]
+      }
+    },
+    "qa": {
+      "servers": {
+        "lan": [
+          "qaolunxweb03"
+        ],
+        "dmz": [
+          "qaolunxweb01",
+          "qaolunxweb02"
+        ],
+        "db": [
+          "QAOLUNXBDD01",
+          "QAOLUNXBDD02"
+        ]
+      },
+      "url": {
+        "dmz": [
+          "https://qualif-administrateur.groupagrica.com"
+        ],
+        "lan": [
+          "http://qualif-administrateur.agrica.loc/"
+        ]
+      }
+    }
+  },
+  "OCP": {
+    "maven": {
+      "groupId": "com.agrica.aol",
+      "artifactId": "magi"
+    },
+    "prod": {
+      "servers": {
+        "lan": [
+          "pwebunxweb02"
+        ],
+        "db": [
+          "pwebunxbdd02"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://ocp.agrica.loc/"
+        ]
+      }
+    },
+    "rec": {
+      "servers": {
+        "lan": [
+          "rwebunxweb02"
+        ],
+        "db": [
+          "rwebunxbdd02"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://rec-ocp.agrica.loc/"
+        ]
+      }
+    },
+    "qa": {
+      "servers": {
+        "lan": [
+          "qwebunxweb02"
+        ],
+        "db": [
+          "qwebunxbdd02"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://qualif-ocp.agrica.loc/"
+        ]
+      }
+    }
+  },
+  "HDF": {
+    "maven": {
+      "groupId": "com.agrica.hdf",
+      "artifactId": "hdf"
+    },
+    "prod": {
+      "servers": {
+        "lan": [
+          "pwebunxweb02"
+        ],
+        "db": [
+          "pwebunxbdd02"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://hdf.agrica.loc/"
+        ]
+      }
+    },
+    "rec": {
+      "servers": {
+        "lan": [
+          "rwebunxweb02"
+        ],
+        "db": [
+          "rwebunxbdd02"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://rec-hdf.agrica.loc/"
+        ]
+      }
+    },
+    "qa": {
+      "servers": {
+        "lan": [
+          "qwebunxweb02"
+        ],
+        "db": [
+          "qwebunxbdd02"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://qualif-hdf.agrica.loc/"
+        ]
+      }
+    }
+  },
+  "RDC": {
+    "maven": {
+      "groupId": "com.agrica.rdc",
+      "artifactId": "rdc"
+    },
+    "prod": {
+      "servers": {
+        "lan": [
+          "pwebunxweb02"
+        ],
+        "db": [
+          "pwebunxbdd02"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://rdc.agrica.loc/"
+        ]
+      }
+    },
+    "rec": {
+      "servers": {
+        "lan": [
+          "rwebunxweb02"
+        ],
+        "db": [
+          "rwebunxbdd02"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://rec-rdc.agrica.loc/"
+        ]
+      }
+    },
+    "qa": {
+      "servers": {
+        "lan": [
+          "qwebunxweb02"
+        ],
+        "db": [
+          "qwebunxbdd02"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://qualif-rdc.agrica.loc/"
+        ]
+      }
+    }
+  },
+  "PHP-Monitor": {
+    "maven": {
+      "groupId": "com.agrica.socle.phpmonitor",
+      "artifactId": "php-monitor"
+    },
+    "prod": {
+      "servers": {
+        "lan": [
+          "pwebunxweb02"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://phpmonitor7/",
+          "http://phpmonitor5/"
+        ]
+      }
+    },
+    "rec": {
+      "servers": {
+        "lan": [
+          "rwebunxweb02"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://rec-phpmonitor7/",
+          "http://rec-phpmonitor5/"
+        ]
+      }
+    },
+    "qa": {
+      "servers": {
+        "lan": [
+          "qwebunxweb02"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://qualif-phpmonitor7/",
+          "http://qualif-phpmonitor5/"
+        ]
+      }
+    }
+  },
+  "Agrinotes": {
+    "maven": {
+      "groupId": "com.agrica.agrinotes",
+      "artifactId": "agrinotes"
+    },
+    "prod": {
+      "servers": {
+        "lan": [
+          "pwebunxweb01"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://agrinotes/"
+        ]
+      }
+    },
+    "rec": {
+      "servers": {
+        "lan": [
+          "rwebunxweb01"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://rec-agrinotes/"
+        ]
+      }
+    },
+    "qa": {
+      "servers": {
+        "lan": [
+          "qwebunxweb01"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://qualif-agrinotes/"
+        ]
+      }
+    }
+  },
+  "Coherence-identification": {
+    "maven": {
+      "groupId": "com.agrica.identification",
+      "artifactId": "coherence-identification"
+    },
+    "prod": {
+      "servers": {
+        "lan": [
+          "pwebunxweb01"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://coherence-identification"
+        ]
+      }
+    },
+    "rec": {
+      "servers": {
+        "lan": [
+          "rwebunxweb01"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://rec-coherence-identification"
+        ]
+      }
+    },
+    "qa": {
+      "servers": {
+        "lan": [
+          "qwebunxweb01"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://qualif-coherence-identification"
+        ]
+      }
+    }
+  },
+  "OCQ": {
+    "maven": {
+      "groupId": "com.agrica.ocq",
+      "artifactId": "ocq"
+    },
+    "prod": {
+      "servers": {
+        "lan": [
+          "pwebunxweb01"
+        ],
+        "db": [
+          "pwebunxbdd01"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://ocq/"
+        ]
+      }
+    },
+    "rec": {
+      "servers": {
+        "lan": [
+          "rwebunxweb01"
+        ],
+        "db": [
+          "rwebunxbdd01"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://rec-ocq/"
+        ]
+      }
+    },
+    "qa": {
+      "servers": {
+        "lan": [
+          "qwebunxweb01"
+        ],
+        "db": [
+          "qwebunxbdd01"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://qualif-ocq/"
+        ]
+      }
+    }
+  },
+  "OCQAS": {
+    "maven": {
+      "groupId": "com.agrica.ocqas",
+      "artifactId": "ocqas"
+    },
+    "prod": {
+      "servers": {
+        "lan": [
+          "pwebunxweb01"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://ocqas/"
+        ]
+      }
+    },
+    "rec": {
+      "servers": {
+        "lan": [
+          "rwebunxweb01"
+        ],
+        "db": [
+          "rwebunxbdd01"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://rec-ocqas/"
+        ]
+      }
+    },
+    "qa": {
+      "servers": {
+        "lan": [
+          "qwebunxweb01"
+        ],
+        "db": [
+          "qwebunxbdd01"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://qualif-ocqas/"
+        ]
+      }
+    }
+  },
+  "OQP": {
+    "maven": {
+      "groupId": "com.agrica.oqp",
+      "artifactId": "oqp"
+    },
+    "prod": {
+      "servers": {
+        "lan": [
+          "pwebunxweb01"
+        ],
+        "db": [
+          "pwebunxbdd01"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://oqp/"
+        ]
+      }
+    },
+    "rec": {
+      "servers": {
+        "lan": [
+          "rwebunxweb01"
+        ],
+        "db": [
+          "rwebunxbdd01"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http:///rec-oqp/"
+        ]
+      }
+    },
+    "qa": {
+      "servers": {
+        "lan": [
+          "qwebunxweb01"
+        ],
+        "db": [
+          "qwebunxbdd01"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://qualif-oqp.agrica.loc"
+        ]
+      }
+    }
+  },
+  "Opega": {
+    "maven": {
+      "groupId": "com.agrica.opega",
+      "artifactId": "opega"
+    },
+    "prod": {
+      "servers": {
+        "lan": [
+          "pwebunxweb01"
+        ],
+        "db": [
+          "pwebunxbdd01"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://opega/"
+        ]
+      }
+    },
+    "rec": {
+      "servers": {
+        "lan": [
+          "rwebunxweb01"
+        ],
+        "db": [
+          "rwebunxbdd01"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://rec-opega"
+        ]
+      }
+    },
+    "qa": {
+      "servers": {
+        "lan": [
+          "qwebunxweb01"
+        ],
+        "db": [
+          "qwebunxbdd01"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://qualif-opega"
+        ]
+      }
+    }
+  },
+  "Oura": {
+    "maven": {
+      "groupId": "com.agrica.oura",
+      "artifactId": "oura"
+    },
+    "prod": {
+      "servers": {
+        "lan": [
+          "pwebunxweb01"
+        ],
+        "db": [
+          "pwebunxbdd01"
+        ]
+      }
+    },
+    "rec": {
+      "servers": {
+        "lan": [
+          "rwebunxweb01"
+        ],
+        "db": [
+          "rwebunxbdd01"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://rec2-oura/"
+        ]
+      }
+    },
+    "qa": {
+      "servers": {
+        "lan": [
+          "qwebunxweb01"
+        ],
+        "db": [
+          "qwebunxbdd01"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://qualif-oura/."
+        ]
+      }
+    }
+  },
+  "Veille Assurance": {
+    "maven": {
+      "groupId": "com.agrica.veil",
+      "artifactId": "veilleassurance"
+    },
+    "prod": {
+      "servers": {
+        "lan": [
+          "pwebunxweb01"
+        ],
+        "db": [
+          "pwebunxbdd01"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://veilleassurance"
+        ]
+      }
+    },
+    "rec": {
+      "servers": {
+        "lan": [
+          "rwebunxweb01"
+        ],
+        "db": [
+          "rwebunxbdd01"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://rec-veilleassurance"
+        ]
+      }
+    },
+    "qa": {
+      "servers": {
+        "lan": [
+          "qwebunxweb01"
+        ],
+        "db": [
+          "qwebunxbdd01"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://qualif-veilleassurance"
+        ]
+      }
+    }
+  },
+  "Wiki-DEI": {
+    "maven": {
+      "groupId": "com.agrica.wiki",
+      "artifactId": "wiki-dei"
+    },
+    "prod": {
+      "servers": {
+        "lan": [
+          "pwebunxweb01"
+        ],
+        "db": [
+          "pwebunxbdd01"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://wiki-dei/"
+        ]
+      }
+    },
+    "rec": {
+      "servers": {
+        "lan": [
+          "rwebunxweb01"
+        ],
+        "db": [
+          "rwebunxbdd01"
+        ]
+      }
+    },
+    "qa": {
+      "servers": {
+        "lan": [
+          "qwebunxweb01"
+        ],
+        "db": [
+          "qwebunxbdd01"
+        ]
+      }
+    }
+  },
+  "Casper": {
+    "maven": {
+      "groupId": "com.agrica.casper",
+      "artifactId": "casper"
+    },
+    "prod": {
+      "servers": {
+        "lan": [
+          "pwebunxweb01"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://casper/"
+        ]
+      }
+    },
+    "rec": {
+      "servers": {
+        "lan": [
+          "rwebunxweb01"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://rec-casper"
+        ]
+      }
+    },
+    "qa": {
+      "servers": {
+        "lan": [
+          "qwebunxweb01"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://qualif-casper"
+        ]
+      }
+    }
+  },
+  "INFOS DSI": {
+    "prod": {
+      "servers": {
+        "lan": [
+          "pwebunxweb01"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://infos-dsi/"
+        ]
+      }
+    },
+    "rec": {
+      "servers": {
+        "lan": [
+          "rwebunxweb01"
+        ]
+      }
+    },
+    "qa": {
+      "servers": {
+        "lan": [
+          "qwebunxweb01"
+        ]
+      }
+    }
+  },
+  "Agrinet": {
+    "maven": {
+      "groupId": "com.agrica.agrinet",
+      "artifactId": "agrinet"
+    },
+    "prod": {
+      "servers": {
+        "lan": [
+          "sofia",
+          "et",
+          "skopje"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://agrinet/"
+        ]
+      }
+    },
+    "rec": {
+      "servers": {
+        "lan": [
+          "tokyo",
+          "et",
+          "tripoli"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://rec-agrinet/"
+        ]
+      }
+    },
+    "qa": {
+      "servers": {
+        "lan": [
+          "rangoon"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://qualif-agrinet/"
+        ]
+      }
+    }
+  },
+  "Agrinet PHP7": {
+    "maven": {
+      "groupId": "com.agrica.agrinet",
+      "artifactId": "agrinet"
+    },
+    "prod": {
+      "servers": {
+        "lan": [
+          "pagrunxweb01",
+          "pagrunxweb02"
+        ]
+      }
+    },
+    "rec": {
+      "servers": {
+        "lan": [
+          "ragrunxweb01",
+          "ragrunxweb02"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://rec2-agrinet/"
+        ]
+      }
+    },
+    "qa": {
+      "servers": {
+        "lan": [
+          "qagrunxweb01",
+          "qagrunxweb02"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://qualif-agrinet/"
+        ]
+      }
+    }
+  },
+  "AGRINET PHP7 Static": {
+    "prod": {
+      "servers": {
+        "lan": [
+          "beziers"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://statics"
+        ]
+      }
+    },
+    "rec": {
+      "servers": {
+        "lan": [
+          "blois"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://rstatics"
+        ]
+      }
+    },
+    "qa": {
+      "servers": {
+        "lan": [
+          "bobigny"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://qstatics"
+        ]
+      }
+    }
+  },
+  "CFAI": {
+    "prod": {
+      "servers": {
+        "lan": [
+          "bulgarie",
+          "seychelles"
+        ]
+      }
+    },
+    "rec": {
+      "servers": {
+        "lan": [
+          "burkina",
+          "nepal"
+        ]
+      }
+    },
+    "qa": {
+      "servers": {
+        "lan": [
+          "Burundi"
+        ]
+      }
+    }
+  },
+  "Duncan": {
+    "prod": {
+      "servers": {
+        "lan": [
+          "alfortville"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://alfortville"
+        ]
+      }
+    },
+    "rec": {
+      "servers": {
+        "lan": [
+          "N/A"
+        ]
+      }
+    },
+    "qa": {
+      "servers": {
+        "lan": [
+          "N/A"
+        ]
+      }
+    }
+  },
+  "Iris": {
+    "maven": {
+      "groupId": "com.agrica.iris",
+      "artifactId": "iris"
+    },
+    "prod": {
+      "servers": {
+        "lan": [
+          "Bulgarie"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://iris"
+        ]
+      }
+    },
+    "rec": {
+      "servers": {
+        "lan": [
+          "Burkina"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://iris-rec"
+        ]
+      }
+    },
+    "qa": {
+      "servers": {
+        "lan": [
+          "Burundi"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://iris-dev"
+        ]
+      }
+    }
+  },
+  "Jasper": {
+    "prod": {
+      "servers": {
+        "lan": [
+          "Hamilton",
+          "havane"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://gendoc-admin-01:8080/jasperserver/",
+          "http://gendoc-admin-02:8080/jasperserver/"
+        ]
+      }
+    },
+    "rec": {
+      "servers": {
+        "lan": [
+          "Hagatna"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://rec-gendoc/"
+        ]
+      }
+    },
+    "qa": {
+      "servers": {
+        "lan": [
+          "Gibraltar"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://gibraltar:8080"
+        ]
+      }
+    }
+  },
+  "Mini-Site": {
+    "maven": {
+      "groupId": "com.agrica.minisite",
+      "artifactId": "minisite"
+    },
+    "prod": {
+      "servers": {
+        "lan": [
+          "antibes"
+        ],
+        "dmz": [
+          "pms-web01",
+          "pms-web02"
+        ],
+        "db": [
+          "pms-db01",
+          "pms-db02"
+        ]
+      },
+      "url": {
+        "dmz": [
+          "https://www.masanteprev-agricole.org/",
+          "https://www.masante-cavesvinicoles.org/",
+          "https://www.coop-iaa.org/"
+        ],
+        "lan": [
+          "http://masanteprev-agricole.agrica.loc",
+          "http://masante-cavesvinicoles.agrica.loc/",
+          "http://coop-iaa.agrica.loc/"
+        ]
+      }
+    },
+    "rec": {
+      "servers": {
+        "lan": [
+          "annecy"
+        ],
+        "dmz": [
+          "rms-web01",
+          "rms-web02"
+        ],
+        "db": [
+          "rms-db01",
+          "rms-db02"
+        ]
+      },
+      "url": {
+        "dmz": [
+          "https://rec.masanteprev-agricole.org/",
+          "https://rec.masante-cavesvinicoles.org/",
+          "https://rec.coop-iaa.org/"
+        ],
+        "lan": [
+          "http://rec-masanteprev-agricole.agrica.loc",
+          "http://rec-masante-cavesvinicoles.agrica.loc/",
+          "http://rec-coop-iaa.agrica.loc/"
+        ]
+      }
+    },
+    "qa": {
+      "servers": {
+        "lan": [
+          "avignon"
+        ],
+        "dmz": [
+          "qms-web01",
+          "qms-web02"
+        ],
+        "db": [
+          "qms-db01",
+          "qms-db02"
+        ]
+      },
+      "url": {
+        "dmz": [
+          "https://qualif.masanteprev-agricole.org/",
+          "https://qualif.masante-cavesvinicoles.org/",
+          "https://qualif.coop-iaa.org/"
+        ],
+        "lan": [
+          "http://qualif-masanteprev-agricole.agrica.loc",
+          "http://qualif-masante-cavesvinicoles.agrica.loc/",
+          "http://qualif-coop-iaa.agrica.loc/"
+        ]
+      }
+    }
+  },
+  "Portail Partenaire": {
+    "maven": {
+      "groupId": "com.agrica.portail-partenaire",
+      "artifactId": "portail-partenaire"
+    },
+    "prod": {
+      "servers": {
+        "lan": [
+          "brest"
+        ],
+        "dmz": [
+          "pppart-web01",
+          "pppart-web02"
+        ],
+        "db": [
+          "pppart-db01",
+          "pppart-db02"
+        ]
+      },
+      "url": {
+        "dmz": [
+          "https://partenaires.groupagrica.com"
+        ]
+      }
+    },
+    "rec": {
+      "servers": {
+        "lan": [
+          "brive"
+        ],
+        "dmz": [
+          "rppart-web01",
+          "rppart-web02"
+        ],
+        "db": [
+          "rppart-db01",
+          "rppart-db02"
+        ]
+      },
+      "url": {
+        "dmz": [
+          "https://rec-partenaires.groupagrica.com/"
+        ]
+      }
+    },
+    "qa": {
+      "servers": {
+        "lan": [
+          "bron"
+        ],
+        "dmz": [
+          "qppart-web01",
+          "qppart-web02"
+        ],
+        "db": [
+          "qppart-db01",
+          "qppart-db02"
+        ]
+      },
+      "url": {
+        "dmz": [
+          "https://qualif-partenaires.groupagrica.com/"
+        ],
+        "lan": [
+          "http://bron/"
+        ]
+      }
+    }
+  },
+  "PAI Public": {
+    "prod": {
+      "servers": {
+        "lan": [
+          "antony"
+        ],
+        "dmz": [
+          "ppai-web01",
+          "ppai-web02"
+        ],
+        "db": [
+          "ppai-db01",
+          "ppai-db02"
+        ]
+      },
+      "url": {
+        "dmz": [
+          "https://www.groupagrica.com"
+        ]
+      }
+    },
+    "rec": {
+      "servers": {
+        "lan": [
+          "argenteuil"
+        ],
+        "dmz": [
+          "rpai-web01",
+          "rpai-web02"
+        ],
+        "db": [
+          "rpai-db01",
+          "rpai-db02"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://rec-www.groupagrica.com"
+        ]
+      }
+    },
+    "qa": {
+      "servers": {
+        "lan": [
+          "arles"
+        ],
+        "dmz": [
+          "qpai-web01",
+          "qpai-web02"
+        ],
+        "db": [
+          "qpai-db01",
+          "qpai-db02"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://qualif-www.groupagrica.com"
+        ]
+      }
+    }
+  },
+  "PAI Privé": {
+    "maven": {
+      "groupId": "com.agrica.paiv2",
+      "artifactId": "paiv2"
+    },
+    "prod": {
+      "servers": {
+        "lan": [
+          "norvege"
+        ],
+        "dmz": [
+          "+3",
+          "frontaux"
+        ]
+      },
+      "url": {
+        "dmz": [
+          "https://moncompteclient.groupagrica.com/"
+        ],
+        "lan": [
+          "http://webagrica/"
+        ]
+      }
+    },
+    "rec": {
+      "servers": {
+        "lan": [
+          "malaisie"
+        ],
+        "dmz": [
+          "+2",
+          "frontaux"
+        ],
+        "db": [
+          "²"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://webagrica-rec/"
+        ]
+      }
+    },
+    "qa": {
+      "servers": {
+        "lan": [
+          "madagascar"
+        ],
+        "db": [
+          "madagascar"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://webagrica-qualif/"
+        ]
+      }
+    }
+  },
+  "Gina": {
+    "maven": {
+      "groupId": "com.agrica.gina",
+      "artifactId": "gina"
+    },
+    "prod": {
+      "servers": {
+        "lan": [
+          "norvege"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://gina"
+        ]
+      }
+    },
+    "rec": {
+      "servers": {
+        "lan": [
+          "malaisie"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://rec-gina"
+        ]
+      }
+    },
+    "qa": {
+      "servers": {
+        "lan": [
+          "madagascar"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://dev-gina"
+        ]
+      }
+    }
+  },
+  "SAE": {
+    "maven": {
+      "groupId": "com.agrica.sae",
+      "artifactId": "sae"
+    },
+    "prod": {
+      "servers": {
+        "lan": [
+          "honiara"
+        ],
+        "dmz": [
+          "paeapp01",
+          "paeapp02"
+        ],
+        "db": [
+          "paedb"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://www.agrica-epargnesalariale.com"
+        ]
+      }
+    },
+    "rec": {
+      "servers": {
+        "lan": [
+          "helsinki"
+        ],
+        "dmz": [
+          "raeapp01",
+          "raeapp02"
+        ],
+        "db": [
+          "raedb"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://sae-rec/"
+        ]
+      }
+    },
+    "qa": {
+      "servers": {
+        "lan": [
+          "kiev"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://sae-dev/"
+        ]
+      }
+    }
+  },
+  "SAE V2": {
+    "rec": {
+      "servers": {
+        "lan": [
+          "rsaeunxweb03"
+        ],
+        "dmz": [
+          "rsaeunxweb01",
+          "rsaeunxweb02"
+        ],
+        "db": [
+          "rsaeunxbdd01",
+          "rsaeunxbdd02"
+        ]
+      }
+    },
+    "prod": {
+      "servers": {
+        "lan": [
+          "psaeunxweb03"
+        ],
+        "dmz": [
+          "psaeunxweb01",
+          "psaeunxweb02"
+        ],
+        "db": [
+          "psaeunxbdd01",
+          "psaeunxbdd02"
+        ]
+      }
+    }
+  },
+  "SAPP": {
+    "prod": {
+      "servers": {
+        "lan": [
+          "annemasse",
+          "psapunxweb01"
+        ],
+        "dmz": [
+          "psapp-web01",
+          "psapp-web02"
+        ],
+        "db": [
+          "psapunxbddvip"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://service-agrica"
+        ]
+      }
+    },
+    "rec": {
+      "servers": {
+        "lan": [
+          "angouleme",
+          "rsapunxweb01"
+        ],
+        "dmz": [
+          "rsapp-web01",
+          "rsapp-web02"
+        ],
+        "db": [
+          "rsapunxbddvip"
+        ]
+      }
+    },
+    "qa": {
+      "servers": {
+        "lan": [
+          "arras",
+          "qsapunxweb01"
+        ],
+        "dmz": [
+          "qsapp-web01",
+          "qsapp-web02"
+        ],
+        "db": [
+          "qsapunxbddvip"
+        ]
+      }
+    }
+  },
+  "Statics": {
+    "prod": {
+      "servers": {
+        "lan": [
+          "beziers"
+        ],
+        "dmz": [
+          "pstatics"
+        ]
+      }
+    },
+    "rec": {
+      "servers": {
+        "lan": [
+          "blois"
+        ],
+        "dmz": [
+          "rstatics"
+        ]
+      }
+    },
+    "qa": {
+      "servers": {
+        "lan": [
+          "bobigny"
+        ],
+        "dmz": [
+          "qstatics"
+        ]
+      }
+    }
+  },
+  "Fitnesse SAPP": {
+    "qa": {
+      "servers": {
+        "lan": [
+          "pfitunxapp01"
+        ]
+      },
+      "url": {
+        "lan": [
+          "http://fitnesse-sapp"
+        ]
+      }
+    }
+  }
+}
