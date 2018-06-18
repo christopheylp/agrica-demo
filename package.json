@@ -18,7 +18,9 @@
     "@polymer/paper-radio-button": "^3.0.0-pre.19",
     "@polymer/polymer": "^3.0.0",
     "emoji-rain": "^1.4.0",
-    "paper-radio-button": "^0.3.0"
+    "feature-detect-es6": "^1.4.1",
+    "paper-radio-button": "^0.3.0",
+    "semver": "^5.5.0"
   },
   "devDependencies": {
     "@polymer/iron-demo-helpers": "^3.0.0-pre.12",

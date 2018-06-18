@@ -9,42 +9,47 @@ import './agrica-list-app.js';
 
 /**
  * `agrica-app`
- * 
+ *
  *
  * @customElement
  * @polymer
  * @demo demo/index.html
  */
 class AgricaListItem extends PolymerElement {
-  static get template() {
-    return html`
+    static get template() {
+        return html`
       <style>
         :host {
-          display: block;
+        font-style:  inherit;
+        display:block;
+        background: whitesmoke;
+        padding: 5px ;
+        color:midnightblue;
+        --paper-listbox-background-color:whitesmoke;
+        --paper-listbox-color:midnightblue;
         }
       </style>
-            <paper-listbox attr-for-selected="item-name" selected="{{item.name}}" fallback-selection="None">
-            <paper-item item-name="{{item.name}}">1</paper-item>
-            <paper-item item-name="{{item.name}}">2[[item.name]]</paper-item>
-            <p>Description:[[item.description]]</p>
-            </paper-listbox>
+      <table><tr>
+            <td width=30%><paper-listbox attr-for-selected="item-name" selected="{{item.name}}" fallback-selection="{{item.name}}">
+                <paper-item  item-name="{{item.name}}">[[item.name]]</paper-item></td>
+                <td width=70%><paper-item  item-name="{{item.description}}">[[item.description]]</paper-item>
+            </paper-listbox></td>
+      </td></table>
+            
 
-      <!--<h2>[[item.name]]</h2>-->
-      <!--<h3>[[item.description]]</h3>-->
     `;
-  }
+    }
 
     static get properties() {
         return {
             item: {
                 type: Object,
-                readonly:true
+                readonly: true
             }
         };
     }
 
-
-  }
+}
 
 
 window.customElements.define('agrica-list-item', AgricaListItem);
